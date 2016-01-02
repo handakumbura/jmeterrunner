@@ -84,7 +84,7 @@ public void processResult()
     {
         if(!result.isResult())
         {
-            log.info("Assertion failed for "+result.getSamplerName()+" sampler with response code "+result.getResponseCode()+".");           
+            System.out.println("Assertion failed for "+result.getSamplerName()+" sampler with response code "+result.getResponseCode()+".");           
         }    
     }    
     }    
